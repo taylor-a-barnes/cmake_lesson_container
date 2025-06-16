@@ -14,7 +14,6 @@ RUN apt-get clean && \
                        libspdlog-dev \
                        libxtensor-dev \
                        libyaml-cpp-dev \
-                       pdqsort-dev \
-                       valgrind && \
+                       pdqsort-dev && \
    apt-get clean && \
    rm -rf /var/lib/apt/lists/*
